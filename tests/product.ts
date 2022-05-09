@@ -24,11 +24,11 @@ import { Canopy } from '../src/index'
     productId: cpyProdId,
     effectiveAt: now,
     productOverview: {
-      productName: "Daily Due",
-      productType: "REVOLVING",
-      productShortDescription: "1Day13apr.",
-      productLongDescription: "credit card.",
-      productColor: "#0000FF"
+      productName: 'Daily Due',
+      productType: 'REVOLVING',
+      productShortDescription: '1Day13apr.',
+      productLongDescription: 'credit card.',
+      productColor: '#0000FF'
     },
     productLifecyclePolicies: {
       paymentDuePolicies: {
@@ -36,17 +36,17 @@ import { Canopy } from '../src/index'
         chargeOffOnNConsecutiveLateFees: 1
       },
       feePolicies: {
-        lateFeeGrace: "0 days"
+        lateFeeGrace: '0 days'
       },
       billingCyclePolicies: {
-        cycleInterval: "1 days",
-        cycleDueInterval: "1 days",
-        firstCycleInterval: "0 days",
-        closeOfBusinessTime: "17:00:00-05:00",
-        productTimeZone: "America/Chicago"
+        cycleInterval: '1 days',
+        cycleDueInterval: '1 days',
+        firstCycleInterval: '0 days',
+        closeOfBusinessTime: '17:00:00-05:00',
+        productTimeZone: 'America/Chicago'
       },
       interestPolicies: {
-        interestCalcTime: "11:21:04-08:00"
+        interestCalcTime: '11:21:04-08:00'
       },
       defaultAttributes: {
         defaultCreditLimitCents: 6000
@@ -54,7 +54,7 @@ import { Canopy } from '../src/index'
     },
     promotionalPolicies: {
       promoLen: 0,
-      promoMinPayType: "PERCENT_PRINCIPAL",
+      promoMinPayType: 'PERCENT_PRINCIPAL',
       promoPurchaseWindowLen: 0,
       promoInterestDeferred: true,
       promoDefaultInterestRatePercent: 0,
@@ -66,7 +66,7 @@ import { Canopy } from '../src/index'
       postPromoLen: 48,
       postPromoAmLenRangeInclusiveLower: 2,
       postPromoAmLenRangeInclusiveUpper: 5,
-      postPromoMinPayType: "AM",
+      postPromoMinPayType: 'AM',
       postPromoDefaultInterestRatePercent: 13,
       postPromoAprRangeInclusiveLower: 2,
       postPromoAprRangeInclusiveUpper: 15

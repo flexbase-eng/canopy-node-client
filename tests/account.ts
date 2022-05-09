@@ -17,7 +17,7 @@ import { Canopy } from '../src/index'
     console.log(one)
   }
 
-  const cpyProdId = 19410     // from the previous tests
+  const cpyProdId = 19410 // from the previous tests
   console.log(`creating new Account on Product ${cpyProdId}...`)
   const cpyAcctId = uuidv4()
   const now = new Date().toISOString()

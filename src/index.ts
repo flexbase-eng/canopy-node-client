@@ -152,8 +152,8 @@ export class Canopy {
         response = await fetch(url, {
           method: method,
           body: isForm ?
-                (body as any) :
-                (body ? JSON.stringify(snakecaseKeys(body)) : undefined),
+            (body as any) :
+            (body ? JSON.stringify(snakecaseKeys(body)) : undefined),
           headers,
         })
         const payload = declutter(camelCaseKeys((await response?.json()), { deep: true }))

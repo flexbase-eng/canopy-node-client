@@ -19,7 +19,6 @@ import { Canopy } from '../src/index'
 
   console.log('creating new Customer...')
   const cpyCustId = uuidv4()
-  const now = new Date().toISOString()
   const testCust = {
     customerId: cpyCustId,
     customerType: 'person',

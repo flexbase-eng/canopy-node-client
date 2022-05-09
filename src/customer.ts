@@ -1,6 +1,5 @@
 import type { Canopy, CanopyOptions, CanopyError, CanopyPaging } from './'
 import type { Account } from './account'
-import type { Product } from './product'
 
 
 export interface BaseCustomer {
