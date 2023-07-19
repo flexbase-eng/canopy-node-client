@@ -462,7 +462,7 @@ export class AccountApi {
    * Function to take an accountId and data for a temporary promo, and adds
    * that Temporary Promos for that Account.
    */
-  async createTempPromo(accountId: string | number, data: Partial<TemporaryPromo>): Promise<{
+  async createTempPromo(accountId: string | number, _data: Partial<TemporaryPromo>): Promise<{
     success: boolean,
     promo?: TemporaryPromo,
     error?: CanopyError,
@@ -489,7 +489,7 @@ export class AccountApi {
    * returns the effective interest rate for that Account for that
    * period.
    */
-  async getEffectiveInterestRate(accountId: string | number, options: {
+  async getEffectiveInterestRate(accountId: string | number, _options: {
     effectiveAtInclusiveStart?: string,
     effectiveAtExclusiveEnd?: string,
   } = {}): Promise<{

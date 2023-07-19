@@ -1,4 +1,4 @@
-import { v4 as uuidv4 } from 'uuid'
+// import { v4 as uuidv4 } from 'uuid'
 import { Canopy } from '../src/index'
 
 (async () => {
@@ -19,9 +19,9 @@ import { Canopy } from '../src/index'
 
   const cpyProdId = 19410 // from the previous tests
   console.log(`creating new Account on Product ${cpyProdId}...`)
-  const cpyAcctId = uuidv4()
-  const now = new Date().toISOString()
-  const testAcct = {}
+  // const cpyAcctId = uuidv4()
+  // const now = new Date().toISOString()
+  // const testAcct = {}
   const two = await client.account.create()
   console.log('[create] ', two)
   if (two.success) {
